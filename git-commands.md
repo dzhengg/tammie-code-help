@@ -80,10 +80,12 @@ git checkout tammie-feature
 git merge develop
 ```
 
-Push your local `tammie-feature` feature branch to your fork. Once this is done, you can go to the upstream repository and create a pull request. The base repository and branch will be the upstream repository and the branch that you want to make changes to (e.g. git@github.com:dzhengg/tammie-code-help.git and develop). The head repository and branch will be your fork and your feature branch (e.g. git@github.com:TammieYu/tammie-code-help.git and tammie-feature)
+Push your local `tammie-feature` feature branch to your fork.
 ```
 git push origin tammie-feature
 ```
+
+Once you have pushed your feature branch to your fork and you believe it is ready to be merged into the upstream repository, you can go to the upstream repository and create a pull request. The base repository and branch will be the upstream repository and the branch that you want to make changes to (e.g. `git@github.com:dzhengg/tammie-code-help.git` and `develop`). The head repository and branch will be your fork and your feature branch (e.g. `git@github.com:TammieYu/tammie-code-help.git` and `tammie-feature`)
 
 ## Useful links
 * [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
